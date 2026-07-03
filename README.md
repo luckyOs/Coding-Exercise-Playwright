@@ -13,6 +13,7 @@ pages/
 tests/
 utils/
 ```
+```
 playwright-rest-api/
 │
 ├── pages/
@@ -30,6 +31,7 @@ playwright-rest-api/
 ├── README.md
 ├── .gitignore
 └── package-lock.json
+```
 
 ## Installation
 
