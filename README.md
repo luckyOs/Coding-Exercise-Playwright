@@ -97,7 +97,7 @@ GET	/objects/{id}
 ```
 PUT	/objects/{id}
 ```
-05. Delete object	DELETE
+05. Delete object	
 ```
-  /objects/{id}
+DELETE /objects/{id}
 ```
