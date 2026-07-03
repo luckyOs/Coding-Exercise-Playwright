@@ -13,6 +13,23 @@ pages/
 tests/
 utils/
 ```
+playwright-rest-api/
+│
+├── pages/
+│   └── ObjectsAPI.ts
+│
+├── tests/
+│   └── objects.spec.ts
+│
+├── utils/
+│   └── testData.ts
+│
+├── playwright.config.ts
+├── package.json
+├── tsconfig.json
+├── README.md
+├── .gitignore
+└── package-lock.json
 
 ## Installation
 
