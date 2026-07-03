@@ -65,12 +65,12 @@ npx playwright show-report
 
 ## Test Scenarios
 
-- Get all objects
-- Create object
-- Get created object
-- Update object
-- Delete object
-- Verify deleted object
+-1. Get all objects
+-2. Create object
+-3. Get created object
+-4. Update object
+-5. Delete object
+-6. Verify deleted object
 
 ## API Documentation:
 RESTful API Documentation
