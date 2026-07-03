@@ -9,11 +9,6 @@
 ## Project Structure
 
 ```
-pages/
-tests/
-utils/
-```
-```
 playwright-rest-api/
 │
 ├── pages/
