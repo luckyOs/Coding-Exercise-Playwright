@@ -87,7 +87,7 @@ GET	/objects
 ```
 02. Create object
 ```
-POST	/objects
+POST /objects
 ```
 03. Get object by ID
 ```
