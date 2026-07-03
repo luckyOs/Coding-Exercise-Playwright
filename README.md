@@ -101,3 +101,15 @@ PUT	/objects/{id}
 ```
 DELETE /objects/{id}
 ```
+
+## Assumptions
+
+
+- The API (https://api.restful-api.dev) is available throughout test execution.
+- POST /objects returns HTTP 200 and a unique id.
+- Tests are executed sequentially because the object ID created in the POST test is reused in subsequent tests.
+- The created object persists until it is explicitly deleted.
+- After deletion, GET /objects/{id} returns 404 Not Found.
+- The public API may contain pre-existing objects, so the "Get all objects" test validates that the response is a non-empty array rather than checking an exact count.
+- Authentication is not required for the API.
+- The API response format remains consistent with the published documentation.
