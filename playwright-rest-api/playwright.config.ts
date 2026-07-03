@@ -1,0 +1,14 @@
+import { defineConfig } from '@playwright/test';
+
+export default defineConfig({
+  testDir: './tests',
+
+  use: {
+    baseURL: 'https://api.restful-api.dev'
+  },
+
+  reporter: [
+    ['list'],
+    ['html']
+  ]
+});
