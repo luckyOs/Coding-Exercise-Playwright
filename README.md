@@ -29,8 +29,6 @@ playwright-rest-api/
 ├── package.json
 ├── tsconfig.json
 ├── README.md
-├── .gitignore
-└── package-lock.json
 ```
 
 ## Installation
