@@ -71,3 +71,33 @@ npx playwright show-report
 - Update object
 - Delete object
 - Verify deleted object
+
+## API Documentation:
+RESTful API Documentation
+
+Base URL:
+```
+https://api.restful-api.dev
+```
+Required Endpoints
+Scenario	Method	Endpoint
+01. Get all objects	
+```
+GET	/objects
+```
+02. Create object
+```
+POST	/objects
+```
+03. Get object by ID
+```
+GET	/objects/{id}
+```
+04. Update object
+```
+PUT	/objects/{id}
+```
+05. Delete object	DELETE
+```
+  /objects/{id}
+```
