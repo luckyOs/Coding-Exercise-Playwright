@@ -77,7 +77,7 @@ RESTful API Documentation
 
 Base URL:
 ```
-https://api.restful-api.dev
+https://restful-api.dev
 ```
 Required Endpoints
 Scenario	Method	Endpoint
@@ -105,7 +105,7 @@ DELETE /objects/{id}
 ## Assumptions
 
 
-- The API (https://api.restful-api.dev) is available throughout test execution.
+- The API (https://restful-api.dev)) is available throughout test execution.
 - POST /objects returns HTTP 200 and a unique id.
 - Tests are executed sequentially because the object ID created in the POST test is reused in subsequent tests.
 - The created object persists until it is explicitly deleted.
